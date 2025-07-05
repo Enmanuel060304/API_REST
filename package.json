@@ -1,0 +1,28 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "this a repository to make my fisrt API Rest using express js",
+  "homepage": "https://github.com/Enmanuel060304/API_REST#readme",
+  "bugs": {
+    "url": "https://github.com/Enmanuel060304/API_REST/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enmanuel060304/API_REST.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
