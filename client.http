@@ -1,0 +1,20 @@
+# traer todos los datos de la API
+# GET http://localhost:3001/api/persons
+
+# traer mediante el id
+GET http://localhost:3001/api/persons/687740cafe1eb3eb8c5a19cf
+
+# traer el numero de personas
+# GET http://localhost:3001/info 
+
+# POST http://localhost:3001/api/persons
+# Content-Type: application/json
+
+# {
+#   "name": "John Doe",
+#   "number": "1234567890"
+# }
+
+# DELETE http://localhost:3001/api/persons/687723f267dde1e1a39e1207
+
+# DELETE http://localhost:3001/api/persons
